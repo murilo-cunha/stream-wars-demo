@@ -10,7 +10,7 @@ packages = [{include = "stream_wars_demo"}]
 [tool.poetry.dependencies]
 python = "~3.8"
 streamlit = "^1.15.1"
-stream-wars = "^0.0.1"
+stream-wars = "^0.0.3"
 
 
 [tool.poetry.group.dev.dependencies]

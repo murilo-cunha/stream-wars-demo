@@ -542,7 +542,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "stream-wars"
-version = "0.0.1"
+version = "0.0.3"
 description = "Streamlit component to generate the Star Wars crawl text."
 category = "main"
 optional = false
@@ -712,7 +712,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "fc22019424f7ad8b8e0c5a0c8458aad52b1557d8b7b4a5614e4b7cf5eccb0624"
+content-hash = "dda0d1b094546d71a864d5df2defe7cfc191bb9c929775d31de81a54742bfc86"
 
 [metadata.files]
 altair = [
@@ -1175,8 +1175,8 @@ smmap = [
     {file = "smmap-5.0.0.tar.gz", hash = "sha256:c840e62059cd3be204b0c9c9f74be2c09d5648eddd4580d9314c3ecde0b30936"},
 ]
 stream-wars = [
-    {file = "stream_wars-0.0.1-py3-none-any.whl", hash = "sha256:dde48072d9c7afe78ff4abf4df05799a6fde38447ea3417902167d6ba7fcd02b"},
-    {file = "stream_wars-0.0.1.tar.gz", hash = "sha256:773f8b6734f8bcccc832a5c33eef0efb370449344f338316b40b5eddab079819"},
+    {file = "stream_wars-0.0.3-py3-none-any.whl", hash = "sha256:17fbe748c0365973720b63c0077803be5203a6d7a6b1916fdc1a28131adea004"},
+    {file = "stream_wars-0.0.3.tar.gz", hash = "sha256:4539798410084d6bbd9f85b9fc6cb288138fd53ffa854903dbacd66b2d7798fd"},
 ]
 streamlit = [
     {file = "streamlit-1.15.1-py2.py3-none-any.whl", hash = "sha256:ac8b24fa26dd5dfcd1954a340315c0b36c868c7de688259099dfd909524f1d8d"},
