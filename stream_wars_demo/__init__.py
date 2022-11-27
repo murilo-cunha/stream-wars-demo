@@ -25,3 +25,11 @@ inputs = {
 }
 
 stream_wars(key=None, **inputs)
+
+st.subheader("References")
+st.markdown(
+    """\
+- [GitHub repo](https://github.com/murilo-cunha/stream-wars)
+- [Docs](https://murilo-cunha-stream-wars-stream-warsdocs-slmccu.streamlit.app/)\
+"""
+)
