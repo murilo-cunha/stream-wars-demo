@@ -1,4 +1,6 @@
 """Main demo application."""
+from pathlib import Path
+
 import streamlit as st
 from stream_wars import stream_wars
 
@@ -17,7 +19,12 @@ _DEFAULTS = {
     ),
 }
 
-st.header("Stream Wars")
+st.set_page_config(page_title="Stream Wars Demo")
+
+st.image(
+    "https://raw.githubusercontent.com/murilo-cunha/"
+    "stream-wars/main/images/stream-wars-logo.png"
+)
 st.subheader("Change the text below and create your own crawl! 🚀☄️🖖")
 
 inputs = {
@@ -25,6 +32,9 @@ inputs = {
 }
 
 stream_wars(key=None, **inputs)
+
+st.subheader("Source")
+st.code(Path(__file__).read_text(), language="python")
 
 st.subheader("References")
 st.markdown(
